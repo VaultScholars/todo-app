@@ -9,9 +9,6 @@ using only **HTML, CSS, and JavaScript**.
 2. Start editing the files inside the `assets/` folder and refresh your browser
    to see changes.
 
-No build tools are required. There is no React, no bundler, and no framework.
-Just the web platform.
-
 ## Folder structure
 
 ```text
