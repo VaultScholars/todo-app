@@ -7,11 +7,17 @@ using only **HTML, CSS, and JavaScript**.
 
 This TODO app allows users to add tasks, mark them as complete, delete them, and persist data using localStorage. The interface includes a form for new tasks and a list that updates dynamically.
 
-## How to run it
+## Getting Started
 
-1. Open `index.html` directly in your browser.
-2. Start editing the files inside the `assets/` folder and refresh your browser
+1. Clone this repository to your local machine: `git clone <repo-url>`
+2. Navigate to the project folder: `cd todo-app`
+3. Create a new branch for your work: `git checkout -b your-branch-name`
+4. Open the project in VS Code (or your preferred code editor).
+5. Open `index.html` directly in your browser to see the app.
+6. Start editing the files inside the `assets/` folder and refresh your browser
    to see changes.
+
+Alternatively, you can open this project in GitHub Codespaces for a cloud-based development environment.
 
 ## Prerequisites
 
