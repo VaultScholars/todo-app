@@ -1,13 +1,25 @@
 # Vault Scholars TODO App
 
-This is a starter project for your **mid-course project**: building a TODO app
+This is a starter project for your **mid-course capstone**: building a TODO app
 using only **HTML, CSS, and JavaScript**.
+
+## What You'll Build
+
+This TODO app allows users to add tasks, mark them as complete, delete them, and persist data using localStorage. The interface includes a form for new tasks and a list that updates dynamically.
 
 ## How to run it
 
 1. Open `index.html` directly in your browser.
 2. Start editing the files inside the `assets/` folder and refresh your browser
    to see changes.
+
+## Prerequisites
+
+- Basic understanding of HTML, CSS, and JavaScript.
+- A code editor (e.g., VS Code).
+- Git for version control.
+
+Resources: [MDN Web Docs](https://developer.mozilla.org/)
 
 ## Folder structure
 
@@ -22,28 +34,28 @@ todo-app/
 │   ├── js/
 │   │   ├── app.js          # Main app "brain" (event listeners + logic)
 │   │   ├── dom.js          # DOM helper functions (rendering tasks)
-│   │   └── storage.js      # Optional: functions for localStorage
+│   │   └── storage.js      # Functions for localStorage
 └── README.md
 ```
 
 ## Your job
 
-- Fill in the TODOs in `app.js` to:
+### In `app.js`
+- Fill in the TODOs to:
   - Read values from the form.
   - Add new task objects to the `tasks` array.
   - Mark tasks as completed.
   - Delete tasks.
 
-- Fill in the TODOs in `dom.js` to implement DOM helper functions for rendering tasks.
-
-- Fill in the TODOs in `storage.js` to implement localStorage functions for persisting tasks.
-
-- Use the helper functions from:
-  - `dom.js` to render tasks.
-  - `storage.js` to persist tasks between page loads using `localStorage`.
-
+### In `dom.js`
+- Fill in the TODOs to implement DOM helper functions for rendering tasks.
 - Note: There is a placeholder task element in the HTML for reference. Remove it once you implement the rendering logic.
 
+### In `storage.js`
+- Fill in the TODOs to implement localStorage functions for persisting tasks.
+
+### General
+- Use the helper functions from `dom.js` and `storage.js` as needed.
 - Feel free to update the CSS styles to personalize your project.
 
 As you work, try to keep your code organized and readable. Pretend you are
@@ -57,4 +69,4 @@ To submit your project:
 2. Implement your code on that branch.
 3. Submit a pull request to `main`.
 
-We'll review the pull request and approve it if it matches the expected output for the project.
+We'll review the pull request and approve it if it matches the expected output for the project. We'll provide feedback on your PR. If issues arise, check the expected output in the project guidelines.
